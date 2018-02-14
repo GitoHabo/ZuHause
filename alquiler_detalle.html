@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alquiler</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    
+    <!-- HEADER CON BARRA DE NAVEGACIÓN -->
+
+    <header>
+        
+        <a class="alogoimagen" href="/">
+            <img class="logoimagen" src="./img/home.svg" alt="">
+        </a>
+        <p class="burguer"><i class="fas fa-bars"></i></p>
+
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a class="" href="./compra.html">Compra</a></li>
+                <li><a class="activo" class="" href="./alquiler.html">Alquiler</a></li>
+                <li><a class="" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr class="hr_header">
+        <!-- *********BREADCRUMBS con enlaces sucesivos********** -->
+        <div class="col100 flex_izq">
+                <div class="barra_breadcrumbs">
+                    <a href="/">Inicio</a>
+                    <span> <i class="fas fa-angle-right"></i></span>
+                    <a href="./alquiler.html">Alquiler</a>
+                    <span> <i class="fas fa-angle-right"></i></span>
+
+                    <a class="activo" href="./alquiler_detalle.html">Detalle</a>
+                </div>
+            </div>
+            <!-- FIN de col100 -->
+
+    <!-- *******************DATOS DEL INMUEBLE*************** -->
+
+    <div class="col100">
+        <h1 class="deta">ALQUILER</h1>
+        <h1 class="deta2">ALQUILER</h1>
+    </div>
+    <div class="col100 deta">
+        <div class="cajadetalle">
+          <img width="60px" src="./IMG/detalle/kings-size-bed.svg" alt="">
+            <p>3 dormitorios</p>
+
+        </div>
+        
+        <div class="cajadetalle">
+                <img width="60px" src="./IMG/detalle/sink.svg" alt="">
+                <p>2 cuartos de baño</p>
+
+        </div>
+
+        <div class="cajadetalle">
+                <img width="60px" src="./IMG/detalle/plans.svg" alt="">
+                <p>279,43 m²</p>
+
+        </div>
+
+        <div class="cajadetalle">
+                <img width="60px" src="./IMG/alquilar/renta.svg" alt="">
+                <p>6.000 €/ mes</p>
+
+        </div>
+    </div>
+
+
+    <!-- descripción del inmueble -->
+
+    <div class="col100 detadescripcion">
+        
+ 
+        <h2>VIVIENDA MODERNISTA DE LUJO, CON JARDÍN Y PISCINA, A 500M DE LA PLAYA. MARBELLA.</h2>
+
+
+        <p>
+
+                <span class="referencia">Referencia: 5732573</span>
+                
+                Mansión de lujo en venta en Comunidad Rosa Castell, Marbella. Diseño estilo escuela Bauhaus. Muy accesible y cercana al mar.
+                Cuenta con jardín propio y pequeño bosque privado.
+                
+                Esta lujosa casa tiene una superficie de 279,43 m² y 139 m² de jardín vallado. El jardín es botánico,
+                teniendo en él presencia las especies más características de la zona, así como algunas plantas tropicales.
+                
+                Gran salón, amueblado, pantalla led y sistemas Dolby Surround instalados. Amplios ventanales a través de las cuales entra la luz que se filtra entre las hojas de los árboles del bosque privado. Una vivienda de ensueño.
+                
+                Dos cocinas completas. Techos abovedados. Totalmente amueblada y equipada.
+                Al sótano se accede por ascensor interior situado cerca del salón
+                
+                La vivienda dispone de 3 dormitorios con armarios y cómodas. El dormitorio de mayor tamaño cuenta con baño completo propio y vestidor.
+                 Los otros dos baños se encuentran contiguos al salón y al despacho del piso superior, respectivamente. 
+                
+                Sistemas de calefacción solar. Suelos de madera de gran calidad de cedro libanés, mármol y ébano en las escaleras. La casa cuenta con un pequeño pero ya equipado almacén en la cara que da al jardín.
+                
+                El alquiler de esta vivienda son 6.000 euros mensuales, en los que se incluye el derecho a los servicios de jardinero privado a disposición del inquilino y servicio de limpieza privado a las órdenes del arrendatario.</p>
+    </div>
+
+<!-- imágenes del inmueble -->
+<div class="col100">
+    <div class="contenedorfotos">
+        <a href="./img/detalle/a6.jpg"><img src="./img/detalle/a6.jpg" alt=""></a>
+        <a href="./img/detalle/a5.jpg"><img src="./img/detalle/a5.jpg" alt=""></a>
+        <a href="./img/detalle/a4.jpg"><img src="./img/detalle/a4.jpg" alt=""></a>
+        <a href="./img/detalle/a3.jpg"><img src="./img/detalle/a3.jpg" alt=""></a>
+        <a href="./img/detalle/a2.jpg"><img src="./img/detalle/a2.jpg" alt=""></a>
+        <a href="./img/detalle/a1.jpg"><img src="./img/detalle/a1.jpg" alt=""></a>
+        
+        
+        
+        
+        
+    </div>
+    <!-- fin contenedor fotos -->
+</div>
+
+
+    <!-- formulario de consulta y mapa de ubicación -->
+    <div class="col100 formulariomapa">
+        <div class="deta50">
+            <p>¿Desea más información? Contáctenos</p>
+                <div class="deta50comp">
+
+                        <div>
+                        <label>Don</label>
+                        <input type="radio" name="sexo" value="Hombre">
+                        </div>
+                        <div>
+                        <label>Doña</label>
+                        <input type="radio" name="sexo" value="Mujer">
+                        </div>
+                </div>
+                <div class="deta50med">
+                    <input  type="text" name="nombre" id="nombre" placeholder="Nombre *" required>
+                </div>
+                <div class="deta50med">
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos *" required>
+                </div>
+                <div class="deta50med">
+                    <input type="text" name="email" id="email" placeholder="Email *" required>
+                </div>
+                <div class="deta50med">
+                        <input type="text" name="telefono" id="telefono" placeholder="Teléfono" required>
+
+                </div>
+
+                <div class="deta50comp">
+                    <textarea placeholder="¿Cómo podemos ayudarle?" name="textarea" id="textarea" cols="80" rows="10"></textarea>
+                        
+                </div>
+
+                <div class="deta50comp enviar">
+                        <input type="submit" value="ENVIAR">
+                </div>
+            <p>* Este campo ha de cumplimentarse obligatoriamente.</p>
+        </div>
+        <!-- fin deta50 -->
+
+        <div class="detamapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12825.189011271197!2d-4.935015267890978!3d36.52282242398993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d7cf3e19b16f%3A0xb0737b6cfa18b6!2sMarbella+Hill+Club%2C+29602+Marbella%2C+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1518552367951" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>        </div>
+
+        <div class="detamapa2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12825.189011271197!2d-4.935015267890978!3d36.52282242398993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d7cf3e19b16f%3A0xb0737b6cfa18b6!2sMarbella+Hill+Club%2C+29602+Marbella%2C+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1518552367951" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>        </div>
+
+        <div class="detamapa3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12825.189011271197!2d-4.935015267890978!3d36.52282242398993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d7cf3e19b16f%3A0xb0737b6cfa18b6!2sMarbella+Hill+Club%2C+29602+Marbella%2C+M%C3%A1laga!5e0!3m2!1ses!2ses!4v1518552367951" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>        </div>
+    </div>
+
+
+    <!-- ************************ FOOTER *********************************** -->
+
+
+    <footer>
+        <a class="top" href="">
+            <i class="fas fa-chevron-circle-up"></i>
+        </a>
+    
+        <div class="colizquierda white">
+            <p class="white">Zu Hause.GmbH</p>
+            <p><i class="fas fa-map-marker"></i> Av. Antonio Belón, 5</p>
+            <p> CP 29601, Marbella, España</p>
+            <p><i class="fas fa-phone-square"></i> 0039 13412 131</p>
+            <p><i class="fas fa-at"></i> ZuHausen@immobilienkrupp.de</p>
+        </div>
+    
+        <!-- En la columna del medio ponemos un índice -->
+        <div class="colcentro">
+                <a href="/">Inicio</a>
+                <a href="./compra.html">Compra</a>
+                <a class="activo" href="./alquiler.html">Alquiler</a>
+                <a href="./contacto.html">Contacto</a>
+        </div>
+
+        <div class="col100 colcentro2">
+            <a href="/">Inicio</a>
+            <a href="./compra.html">Compra</a>
+            <a class="activo" href="./alquiler.html">Alquiler</a>
+            <a href="./contacto.html">Contacto</a>            
+        </div>
+    
+        <div class="colderecha">
+            <div class="rrss">
+            <a class="rrss_icon" href=""><i class="fab fa-facebook"></i></a>
+            <a class="rrss_icon" href=""><i class="fab fa-twitter-square"></i></a>
+            <a class="rrss_icon" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- fin de rrss -->
+        </div>
+        <!-- FIN COLDERECHA -->
+    
+        <div class="col100 colderecha2">
+            <div class="rrss">
+                <a class="rrss_icon" href=""><i class="fab fa-facebook"></i></a>
+                <a class="rrss_icon" href=""><i class="fab fa-twitter-square"></i></a>
+                <a class="rrss_icon" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <!-- FIN DE COL100 COLDERECHA2 -->
+
+        <!-- Enlaces a aviso legal e información de cookies -->
+        <div class="col100">
+            <div class="legales">
+                <a href="./contacto.html#avisolegal">Aviso Legal</a>
+        
+                <a href="./contacto.html#cookies">Cookies</a>
+            </div>
+            <!-- fin de legales -->
+        </div>
+        <!-- FIN DE COL100  -->
+
+        <div class="col100 minifooter white">
+            <p>&reg; 2.018 Zu Hause.GmbH</p>
+        </div>
+    
+    
+    </footer>
+
+
+
+
+
+
+
+</body>
+</html>
